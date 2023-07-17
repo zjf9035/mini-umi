@@ -1,0 +1,40 @@
+{
+  "name": "mini-umi",
+  "version": "1.0.0",
+  "description": "实现 umi 插件系统简易版本",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./bin/umi.js",
+    "debug": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjf9035/mini-umi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjf9035/mini-umi/issues"
+  },
+  "homepage": "https://github.com/zjf9035/mini-umi#readme",
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "express": "^4.18.2",
+    "html-webpack-plugin": "^5.5.3",
+    "mkdirp": "^3.0.1",
+    "mustache": "^4.2.0",
+    "react-router-dom": "^5.3.4",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^6.1.1",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
